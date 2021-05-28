@@ -10,6 +10,7 @@ export default function Dashboard() {
       .then(response => {
         console.log(response.data)
       })
+      .catch(err => console.error(err))
   }, [])
   
   return (
